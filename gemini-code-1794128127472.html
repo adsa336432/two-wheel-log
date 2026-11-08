@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>兩輪與裝備日誌</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-gray-200 font-sans antialiased">
+    <nav class="bg-gray-800 p-4 shadow-lg">
+        <div class="max-w-4xl mx-auto flex justify-between items-center">
+            <a href="index.html" class="text-xl font-bold text-white tracking-wider">Ride & Gear Log</a>
+            <span class="text-sm text-gray-400">洪紹恩的硬核紀錄</span>
+        </div>
+    </nav>
+
+    <main class="max-w-4xl mx-auto mt-10 p-4">
+        <h1 class="text-3xl font-bold text-white mb-8 border-b border-gray-700 pb-2">最新紀錄</h1>
+        
+        <ul id="article-list" class="space-y-4">
+            <!-- AI 未來新增文章時，需要在此處加入 <li> -->
+            <li class="bg-gray-800 p-6 rounded-lg shadow hover:bg-gray-750 transition border border-gray-700">
+                <a href="routes/north-coast.html" class="block">
+                    <span class="text-xs font-semibold text-blue-400 uppercase tracking-wide">重機路線</span>
+                    <h2 class="text-2xl font-bold text-white mt-1">基隆北海岸 - 八斗子與濱海公路巡航</h2>
+                    <p class="mt-2 text-gray-400">日常夜跑路線，適合測試胎壓與引擎運轉狀況，沿途需注意多處區間測速。</p>
+                </a>
+            </li>
+        </ul>
+    </main>
+</body>
+</html>
